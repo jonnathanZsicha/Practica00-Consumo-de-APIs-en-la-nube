@@ -13,22 +13,32 @@ ACTIVIDADES DESARROLLADAS
 
 1.Identificar gr�ficamente la arquitectura y el patr�n de dise�o de la aplicaci�n a desarrollar
 
-![](informe/api omdb.png)
+![](informe/omdb.png)
 
 2. Generar una llave para consumir los servicios web de la API de OMDb
 
+![](informe/2.png)
+
 3. Crear un repositorio en GitHub con el nombre �Practica00 � Consumo de APIs en la nube�
+
+![](informe/3.png)
 
 4. . Desarrollar una aplicaci�n con HTML + CSS + Javascript + Web Services para buscar pel�culas y toda su informaci�n de la base de datos de OMDb.
 Requisitos:
 
+![](informe/4.png)
+
 � La aplicaci�n Web debe permitir buscar la informaci�n de las pel�culas tanto por el nombre (listado) como
 por el c�digo (id) de cada pel�cula.
+
+![](informe/5.png)
 
 � Adem�s, se deber� visualizar toda la informaci�n disponible (plot=full) de la base de datos de pel�culas.
 
 � Tambi�n, la aplicaci�n deber� presentar un m�ximo de 5 pel�culas por b�squeda. Es decir, si la b�squeda
 retorna m�s de 5 pel�culas se deber� paginar los resultados.
+
+![](informe/6.png)
 
 � Por �ltimo, la interfaz gr�fica de aplicada debe ser intuitiva y sencilla aplicando conceptos de experiencia
 de usuario (justificar en el informe).
