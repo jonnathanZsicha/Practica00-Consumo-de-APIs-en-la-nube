@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>API de OMDb</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script src="javascript/scripts.js"></script>
+</head>
+<body>
+
+<div id="main_bg">
+<div id="main">
+<!-- header begins -->
+<div id="header">
+	<div id="logo">
+    	<a href="#">NETPELIS</a>
+      	<h2><a href="#"><small>Compañia de entretenimiento></a></h2>
+    </div>
+   <div id="buttons">
+      <a href="index.html" class="but_home"  title=""></a><div class="but_razd"></div>
+      <a href="index.html" class="but" title="">inicio</a><div class="but_razd"></div>
+      <a href="gallery.html"  class="but" title="">Gallery</a><div class="but_razd"></div>
+
+      <a class="but" title="" onclick="buscar(1)" type="button">Buscar </a><div class="but_razd"></div>
+
+      <input type="text" id="titulo" value="" style="width: 400px ;height: 37px;background: aliceblue;">
+
+      
+
+
+    </div>
+</div>
+<!-- header ends -->
+<div class="top">
+
+<ul class="round">
+			<li><img src="images/header1.jpg" alt="" /></li>
+			<li><img src="images/header2.jpg" alt="" /></li>
+			<li><img src="images/header3.jpg" alt="" /></li>
+			<li><img src="images/header4.jpg" alt="" /></li>
+			<li><img src="images/header5.jpg" alt="" /></li>
+			<li><img src="images/header6.jpg" alt="" /></li>
+</ul>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/jquery.roundabout.js"></script>
+<script type="text/javascript">
+			
+			$(document).ready(function() {
+				$('.round').roundabout();
+			});
+		
+		</script>
+</div>
+
+        <!-- content begins -->
+        		<div class="cont_top"></div>
+       			<div id="content">
+                    <div id="cont_home">
+
+                     <!--CREO UNA TABLA CON MI CABECERA-->
+                     <table>
+                       <tr>
+                         <td >
+                           <table id="mia">
+                             <thead>
+                               <tr>
+                                 <td>POSTER</td>
+                                 <td>VER MAS</td>
+                                 <td align="center">DETALLES</td>
+                               </tr>
+                             </thead>
+                             <!--CREO un cuerpo para mim tabla con un id que llamare en la funcion para agregar-->
+                             <tbody id="informacion">
+
+                             </tbody>
+                           </table>
+                         </td  >
+                       </tr>
+                       <tr>
+                         <td >
+                           <div id="detalles">
+
+                           </div>
+                         </td>
+                       </tr>
+                     </table>
+
+                     <div id="pagination" style="text-align: center;">
+                     
+                      
+                    </div>
+                    
+                  
+                   	  <div style="clear: both"></div>
+                    </div>
+        		</div>
+                <div class="cont_bot"></div>
+    <!-- content ends --> 
+    <div style="height:15px"></div>
+    <!-- bottom begin -->
+    <div id="bottom">
+    	<div style="height:10px"></div>
+    <div id="b_col1">
+       	  <h1>Recientes Posters</h1>
+          <div style="height:10px"></div>
+            <ul class="spis_bot">
+           	  	<li><a href="#">Lorem ipsum dolor sit amet </a></li>
+                <li><a href="#">Maecenas in magna quis augue</a></li>
+                <li><a href="#">Ut a mauris nec eros consect</a></li>
+                <li><a href="#">Nam luctus felis at mauris co </a></li>
+                <li><a href="#">Aliquam sagittis ligula sit amet </a></li>
+                <li><a href="#">Quisque sit amet est id urna</a></li>
+                <li><a href="#">Aenean gravida ipsum in quam</a></li>
+            </ul>
+      </div>
+      <div id="b_col2">
+        	<h1>Nulla Eu Leo At Ligula</h1>
+        	<div style="height:15px"></div>
+            <img src="images/img14.jpg" class="img_l" alt="" />
+            <span class="span_cont">Nulla eu leo at ligula porta aliquam. </span><br />
+			Donec fermentum leo sed ante accumsan vitae faucibus tellus commodo. Pellentesque fermentum, purus eu aliquam. <br /><div style="height:5px"></div>
+			
+			<img src="images/img15.jpg" class="img_l" alt="" />
+            <span class="span_cont">Cras dictum, est eget adipiscing consectetur, eros eros posuere eros, non mattis neque sem ultricies mauris. </span>
+			Vestibulum aliquet congue nunc a consect <br />
+      </div>
+
+      <div id="b_col3">
+      		<h1>Send a Message</h1>
+            <div style="height:15px"></div>
+			<form action="" method="post">
+                <div style="height:30px;"><label>Name</label><input class="input_txt" value="" name="Name" type="text" /></div><div style="height:5px"></div>
+                <div style="height:30px;"><label>E-mail</label><input class="input_txt" value="" name="E-mail" type="text" /></div><div style="height:5px"></div>
+                      <div><textarea class="text_area" cols="32" rows="3" name="Message"></textarea></div>
+                <div style=" float:left;wi"><input class="submit" name="Submit" type="submit" value="Submit" /></div>
+           </form>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+    <div class="cont_bot"></div>
+    
+<!-- bottom end --> 
+
+<h1></h1>
+<!-- footer begins -->
+<div id="footer">
+    Copyright  2020.by <a href="" title="">Jonnathan Sicha</a><br />
+  <!-- footer ends -->
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
