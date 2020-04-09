@@ -13,7 +13,7 @@ ACTIVIDADES DESARROLLADAS
 
 1.Identificar gr�ficamente la arquitectura y el patr�n de dise�o de la aplicaci�n a desarrollar
 
-![] (informe / api omdb.png)
+![](informe/api omdb.png)
 
 2. Generar una llave para consumir los servicios web de la API de OMDb
 
