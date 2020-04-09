@@ -45,6 +45,6 @@ Se logro identificar arquitecturas web utilizando servicios en la nube. As� co
 RECOMENDACIONES:
 Se debe conocer acerca de conceptos b�sicos de interacci�n humano m�quina para el desarrollo de la GUI por ejemplo la interfaz de usuario se ha guiado en la vista de revista ya que es mucho mas agradable para el usuario .
 
-Nombre de estudiante: _______Jonnathan Sicha______________________
+Nombre de estudiante: _______Jonnathan Sicha
 
-Firma de estudiante: _________Jonnathan Sicha______________________
+Firma de estudiante: _________Jonnathan Sicha
